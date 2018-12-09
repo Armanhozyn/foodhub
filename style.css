@@ -1,20 +1,113 @@
 body,html{
-	height:100%
+	height:100%;
+	
 }
+img{
+	max-width:100%;
+}
+/*font-awesome*/
+.fa{
+	border:2px solid #C71585;
+	border-radius:30%;
+	padding:15px;
+	font-size:30px;
+	width:50px;
+	text-align:center;
+	text-decoration:none !important;
+	margin: 5px 5px;
+}
+.fa:hover {
+    opacity: 0.20;
+}
+.fa-facebook {
+  background: #FFB6C1;
+  color: white;
+}
+.fa-twitter {
+  background: #FFB6C1;
+  color: white;
+}
+.fa-google{
+  background: #FFB6C1;
+  color: white;
+}
+.fa-linkedin {
+  background: #FFB6C1;
+  color: white;
+}
+
+
+
+
+/*Colors*/
 .bg-1{
 	background-color:#FFFFFF
 }
-#join-us{
+.c-p{
+	color: 	#DB7093;
+}
+.carousel-h{
+	color: 	#FFE4E1;
+}
+nav .navbar-nav li a{
+  color:#C71585!important;
+	font-size:18px;
+}
+.navbar-bg{
+	background-color:#FAF0E6!important;
+}
+ .navbar-brand a{
+	
+	color:#C71585 !important;
+}
+.c-section-h{
+	color:#D65076;
+}
+.footer-bg{
+background-color:#FFB6C1!important;
+}
+/*join-us*/
+#Order{
 	background:url("img/home-content-1.jpg") center center no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
 }
-#see-us{
+#Contact{
 	background:url("img/home-content-2.jpg") center center no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
 }
+/*carousel-caption*/
 .carousel-caption{
 	top: 35%;
+}
+.lg{
+	background:url("img/logo.png")center center no-repeat;
+	background-size:130px;
+	margin-right:80px;
+}
+.order-bg-img{
+	background:url("img/order-pic.jpeg")center center no-repeat;
+	display:flex;
+	background-size:cover;
+	margin-top:60px;
 
+
+}
+.underline{
+	height:2px;
+	width:20%;
+	background-color:black;
+}
+	
+.order-nav-bg{
+	background:#E2E2E2;
+}
+.zoom{
+	overflow:hidden;
+	transform: scale(1);
+	transition:.5s ease;
+}
+.card:hover .zoom{
+	transform: scale(1.1);
 }
